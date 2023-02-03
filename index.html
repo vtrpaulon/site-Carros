@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-a">
+            <img src="pexels-carro.png" alt="pexels-carro" width="300px">
+            <h1>Apaixonados por carros!</h1>
+        </div>
+        <div class="header-b">
+            <ul>
+                <li><a href="https://www.noticiasautomotivas.com.br/top-10-carros-esportivos-populares/" target="_blank" rel="noopener noreferrer">Carros Populares</a></li>
+                <li><a href="https://www.noticiasautomotivas.com.br/top-10-os-esportivos-mais-baratos-do-brasil/" target="_blank" rel="noopener noreferrer">Carros Esportivos</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main-1">
+            <h2>A evolução ao longo dos anos...</h2>
+            <img src="design-de-carros-evolucao.jpg" alt="">
+        </div>
+        <div class="container-final">
+            <form action="" class="form2">
+                <fieldset>
+                    <legend>Pesquisa</legend>
+                    <label for="preferencia">Voce prefere:</label><br>
+                    <input type="radio" name="carros" id="carros-antigos"> <label for="carros-antigos">Carros antigos</label><br>
+                    <input type="radio" name="carros" id="carros-populares"> <label for="carros-populares">Carros populares</label><br>
+                    <input type="radio" name="carros" id="carros-esportivos"> <label for="carros-esportivos">Carros esportivos</label><br>    
+                    <label>Tipos de carros</label>
+                    <select name="carros" id="carros">
+                        <option value="hatch">Hatch</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="importados">Importados</option>
+                    </select><br>
+                    <label for="cor">Qual é a sua cor preferida na hora de escolher um carro:</label><br>
+                    <input type="radio" name="cor" id="cor-branco" value="1" /> <label for="cor-branco">Branco</label> <br>
+                    <input type="radio" name="cor" id="cor-preto" value="1" /> <label for="cor-preto">Preto</label> <br>                    
+                    <input type="radio" name="cor" id="cor-prata" value="1" /> <label for="cor-prata">Prata</label> <br>                    
+                    <input type="radio" name="cor" id="outra-cor-1" value="1" /> <label for="outra-cor">Outra</label> <br><br>
+                    <label for="email">Seu e-mail:</label> <input type="email">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+            <div class="container-video">
+                <video width="300px" height="300px" controls> 
+                    <source src="video-lancamento-oficial-da-chevrolet-montana-2023.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center text-white p-3">
+        <h6> &copy; Site desenvolvido por Vitor Paulon</h6>
+    </footer>
+</body>
+</html>
