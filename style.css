@@ -5,7 +5,7 @@
 }
 header{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
 }
@@ -32,7 +32,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 main{
     background-color: rgb(0, 0, 0);
@@ -46,7 +46,7 @@ h2{
 .main-1 img{
     width: 100%;
 }
-.container-final{
+.container-form{
     display: flex;
 
 }
